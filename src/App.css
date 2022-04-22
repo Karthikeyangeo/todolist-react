@@ -7,7 +7,9 @@
   text-align: center;
  
 }
-
+.routeButtons button{
+  color:#063970
+}
 .container{
   margin-top: 5%;
   justify-content: center;
