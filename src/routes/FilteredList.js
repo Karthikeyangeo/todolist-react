@@ -20,12 +20,14 @@ export function FilteredList() {
                 </tr>
             </thead>
                 {taskList.map((e,index) => {
+                    //  Ternary operator is used to show based on the active status 
+                    const hiddenStatus = activeStatus ? e.isCompleted : !e.isCompleted;
                    
                     
                 return (
                     <tbody key={index}>
-                    {/* Ternary operator is used to show based on the active status */}
-                    <tr hidden={activeStatus ? e.isCompleted : !e.isCompleted}>
+                    {/* using hidden element , list is displayed based on the completed status */}
+                    <tr hidden={hiddenStatus}>
                     
                     <td><Checkbox 
                         defaultChecked={e.isCompleted}
