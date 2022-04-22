@@ -1,5 +1,11 @@
+/* html{
+  background-image: linear-gradient(to right top, #d1bf6b, #c3c875, #b4d184, #a5d895, #97dfa8, #8ee4b4, #86e8c1, #7eecce, #77f0d6, #70f4df, #68f7e8, #5ffbf1);
+  height: 100%;
+} */
+
 .App{
   text-align: center;
+ 
 }
 
 .container{
