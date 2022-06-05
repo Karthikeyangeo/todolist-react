@@ -53,6 +53,8 @@ td{
   padding: 0px 30px;
   
 }
+
+/* alligning task name to the left of the table */
 td:nth-of-type(even){
   text-align: left;
 }
