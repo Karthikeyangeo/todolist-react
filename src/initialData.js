@@ -1,10 +1,10 @@
 // Initializing To do list and exporting
 
 const temp_task = [
-    {newTask:'Create theme',isCompleted:false},
-    {newTask:'Work on wordpress',isCompleted:false},
-    {newTask:'Organize office main department',isCompleted:false},
-    {newTask:'Error solve in HTML template',isCompleted:false}
+    {newTask:'Learn FrontEnd ',isCompleted:false},
+    {newTask:'Learn BackEnd ',isCompleted:false},
+    {newTask:'Work on projects',isCompleted:false},
+    {newTask:'Consistency in hands-on',isCompleted:false}
     
 ];
 

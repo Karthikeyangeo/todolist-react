@@ -51,8 +51,14 @@ th{
 }
 td{
   padding: 0px 30px;
+  
+}
+td:nth-of-type(even){
   text-align: left;
 }
+
+
+
 .completedtask{
   text-decoration: line-through;
 }
